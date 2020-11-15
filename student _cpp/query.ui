@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>query</class>
+ <widget class="QDialog" name="query">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>993</width>
+    <height>562</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>130</y>
+     <width>771</width>
+     <height>411</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="data">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>80</y>
+     <width>521</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>80</y>
+     <width>141</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>请选择查询方式</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按学号查询</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按姓名查询</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按专业查询</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按班级查询</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>80</y>
+     <width>89</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
